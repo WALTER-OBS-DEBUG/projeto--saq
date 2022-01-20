@@ -6,7 +6,6 @@ function App() {
     <>
       <NavBar/>
       <div>
-        <h1 className="text-primary"></h1>
       </div>
       <Footer/>
     </>
