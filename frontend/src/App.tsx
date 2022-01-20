@@ -1,8 +1,15 @@
+import NavBar from "componentes/navbar";
+import Footer from "componentes/Footer";
+
 function App() {
   return (
-    <div>
-      <h1>Olá mundo!</h1>
-    </div>
+    <>
+      <NavBar/>
+      <div>
+        <h1 className="text-primary"></h1>
+      </div>
+      <Footer/>
+    </>
   );
 }
 
