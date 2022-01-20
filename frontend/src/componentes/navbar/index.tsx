@@ -1,6 +1,6 @@
 import BoladeFutebol from 'assets/img/Bola-de-Futebol.png';
 import BoladeBasquete from 'assets/img/BolaDeBasquete.jpg';
-import BolaDeVolei from 'assets/img/BolaDeVolei.jpg';
+import BolaDeVolei from 'assets/img/BolaDeVolei.png';
 
 const NavBar = () => {
     return (
@@ -9,8 +9,8 @@ const NavBar = () => {
                 <nav className="my-2 my-md-0 mr-md-3">
                    <h2 className="text-primary">Sistema de Aluguel de Quadras Esportivas</h2>
                     <img  src={BoladeFutebol} alt="SAQ" width ="50" /> 
-                    <img  src={BoladeBasquete} alt="SAQ" width ="50" />
-                    <img  src={BolaDeVolei} alt="SAQ" width ="60" />
+                    <img  src={BoladeBasquete} alt="SAQ" width ="55" />
+                    <img  src={BolaDeVolei} alt="SAQ" width ="55" />
                    
                 </nav>
             </div>
